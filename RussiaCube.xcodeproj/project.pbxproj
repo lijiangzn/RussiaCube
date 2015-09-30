@@ -1,0 +1,506 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CCB12D5D1BBBCF250013CFDA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB12D5C1BBBCF250013CFDA /* AppDelegate.swift */; };
+		CCB12D5F1BBBCF250013CFDA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB12D5E1BBBCF250013CFDA /* ViewController.swift */; };
+		CCB12D621BBBCF250013CFDA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCB12D601BBBCF250013CFDA /* Main.storyboard */; };
+		CCB12D641BBBCF250013CFDA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCB12D631BBBCF250013CFDA /* Assets.xcassets */; };
+		CCB12D671BBBCF250013CFDA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCB12D651BBBCF250013CFDA /* LaunchScreen.storyboard */; };
+		CCB12D721BBBCF250013CFDA /* RussiaCubeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB12D711BBBCF250013CFDA /* RussiaCubeTests.swift */; };
+		CCB12D7D1BBBCF250013CFDA /* RussiaCubeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB12D7C1BBBCF250013CFDA /* RussiaCubeUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CCB12D6E1BBBCF250013CFDA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CCB12D511BBBCF250013CFDA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CCB12D581BBBCF250013CFDA;
+			remoteInfo = RussiaCube;
+		};
+		CCB12D791BBBCF250013CFDA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CCB12D511BBBCF250013CFDA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CCB12D581BBBCF250013CFDA;
+			remoteInfo = RussiaCube;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CCB12D591BBBCF250013CFDA /* RussiaCube.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RussiaCube.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCB12D5C1BBBCF250013CFDA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CCB12D5E1BBBCF250013CFDA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CCB12D611BBBCF250013CFDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CCB12D631BBBCF250013CFDA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CCB12D661BBBCF250013CFDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CCB12D681BBBCF250013CFDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCB12D6D1BBBCF250013CFDA /* RussiaCubeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RussiaCubeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCB12D711BBBCF250013CFDA /* RussiaCubeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RussiaCubeTests.swift; sourceTree = "<group>"; };
+		CCB12D731BBBCF250013CFDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCB12D781BBBCF250013CFDA /* RussiaCubeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RussiaCubeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCB12D7C1BBBCF250013CFDA /* RussiaCubeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RussiaCubeUITests.swift; sourceTree = "<group>"; };
+		CCB12D7E1BBBCF250013CFDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CCB12D561BBBCF250013CFDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCB12D6A1BBBCF250013CFDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCB12D751BBBCF250013CFDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CCB12D501BBBCF250013CFDA = {
+			isa = PBXGroup;
+			children = (
+				CCB12D5B1BBBCF250013CFDA /* RussiaCube */,
+				CCB12D701BBBCF250013CFDA /* RussiaCubeTests */,
+				CCB12D7B1BBBCF250013CFDA /* RussiaCubeUITests */,
+				CCB12D5A1BBBCF250013CFDA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CCB12D5A1BBBCF250013CFDA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CCB12D591BBBCF250013CFDA /* RussiaCube.app */,
+				CCB12D6D1BBBCF250013CFDA /* RussiaCubeTests.xctest */,
+				CCB12D781BBBCF250013CFDA /* RussiaCubeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CCB12D5B1BBBCF250013CFDA /* RussiaCube */ = {
+			isa = PBXGroup;
+			children = (
+				CCB12D5C1BBBCF250013CFDA /* AppDelegate.swift */,
+				CCB12D5E1BBBCF250013CFDA /* ViewController.swift */,
+				CCB12D601BBBCF250013CFDA /* Main.storyboard */,
+				CCB12D631BBBCF250013CFDA /* Assets.xcassets */,
+				CCB12D651BBBCF250013CFDA /* LaunchScreen.storyboard */,
+				CCB12D681BBBCF250013CFDA /* Info.plist */,
+			);
+			path = RussiaCube;
+			sourceTree = "<group>";
+		};
+		CCB12D701BBBCF250013CFDA /* RussiaCubeTests */ = {
+			isa = PBXGroup;
+			children = (
+				CCB12D711BBBCF250013CFDA /* RussiaCubeTests.swift */,
+				CCB12D731BBBCF250013CFDA /* Info.plist */,
+			);
+			path = RussiaCubeTests;
+			sourceTree = "<group>";
+		};
+		CCB12D7B1BBBCF250013CFDA /* RussiaCubeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CCB12D7C1BBBCF250013CFDA /* RussiaCubeUITests.swift */,
+				CCB12D7E1BBBCF250013CFDA /* Info.plist */,
+			);
+			path = RussiaCubeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CCB12D581BBBCF250013CFDA /* RussiaCube */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCB12D811BBBCF260013CFDA /* Build configuration list for PBXNativeTarget "RussiaCube" */;
+			buildPhases = (
+				CCB12D551BBBCF250013CFDA /* Sources */,
+				CCB12D561BBBCF250013CFDA /* Frameworks */,
+				CCB12D571BBBCF250013CFDA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RussiaCube;
+			productName = RussiaCube;
+			productReference = CCB12D591BBBCF250013CFDA /* RussiaCube.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CCB12D6C1BBBCF250013CFDA /* RussiaCubeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCB12D841BBBCF260013CFDA /* Build configuration list for PBXNativeTarget "RussiaCubeTests" */;
+			buildPhases = (
+				CCB12D691BBBCF250013CFDA /* Sources */,
+				CCB12D6A1BBBCF250013CFDA /* Frameworks */,
+				CCB12D6B1BBBCF250013CFDA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CCB12D6F1BBBCF250013CFDA /* PBXTargetDependency */,
+			);
+			name = RussiaCubeTests;
+			productName = RussiaCubeTests;
+			productReference = CCB12D6D1BBBCF250013CFDA /* RussiaCubeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CCB12D771BBBCF250013CFDA /* RussiaCubeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCB12D871BBBCF260013CFDA /* Build configuration list for PBXNativeTarget "RussiaCubeUITests" */;
+			buildPhases = (
+				CCB12D741BBBCF250013CFDA /* Sources */,
+				CCB12D751BBBCF250013CFDA /* Frameworks */,
+				CCB12D761BBBCF250013CFDA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CCB12D7A1BBBCF250013CFDA /* PBXTargetDependency */,
+			);
+			name = RussiaCubeUITests;
+			productName = RussiaCubeUITests;
+			productReference = CCB12D781BBBCF250013CFDA /* RussiaCubeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CCB12D511BBBCF250013CFDA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Li, Jiang";
+				TargetAttributes = {
+					CCB12D581BBBCF250013CFDA = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					CCB12D6C1BBBCF250013CFDA = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = CCB12D581BBBCF250013CFDA;
+					};
+					CCB12D771BBBCF250013CFDA = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = CCB12D581BBBCF250013CFDA;
+					};
+				};
+			};
+			buildConfigurationList = CCB12D541BBBCF250013CFDA /* Build configuration list for PBXProject "RussiaCube" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CCB12D501BBBCF250013CFDA;
+			productRefGroup = CCB12D5A1BBBCF250013CFDA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CCB12D581BBBCF250013CFDA /* RussiaCube */,
+				CCB12D6C1BBBCF250013CFDA /* RussiaCubeTests */,
+				CCB12D771BBBCF250013CFDA /* RussiaCubeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CCB12D571BBBCF250013CFDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCB12D671BBBCF250013CFDA /* LaunchScreen.storyboard in Resources */,
+				CCB12D641BBBCF250013CFDA /* Assets.xcassets in Resources */,
+				CCB12D621BBBCF250013CFDA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCB12D6B1BBBCF250013CFDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCB12D761BBBCF250013CFDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CCB12D551BBBCF250013CFDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCB12D5F1BBBCF250013CFDA /* ViewController.swift in Sources */,
+				CCB12D5D1BBBCF250013CFDA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCB12D691BBBCF250013CFDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCB12D721BBBCF250013CFDA /* RussiaCubeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCB12D741BBBCF250013CFDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCB12D7D1BBBCF250013CFDA /* RussiaCubeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CCB12D6F1BBBCF250013CFDA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CCB12D581BBBCF250013CFDA /* RussiaCube */;
+			targetProxy = CCB12D6E1BBBCF250013CFDA /* PBXContainerItemProxy */;
+		};
+		CCB12D7A1BBBCF250013CFDA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CCB12D581BBBCF250013CFDA /* RussiaCube */;
+			targetProxy = CCB12D791BBBCF250013CFDA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CCB12D601BBBCF250013CFDA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCB12D611BBBCF250013CFDA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CCB12D651BBBCF250013CFDA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCB12D661BBBCF250013CFDA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CCB12D7F1BBBCF260013CFDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CCB12D801BBBCF260013CFDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CCB12D821BBBCF260013CFDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RussiaCube/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ljang.RussiaCube;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CCB12D831BBBCF260013CFDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RussiaCube/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ljang.RussiaCube;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CCB12D851BBBCF260013CFDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RussiaCubeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ljang.RussiaCubeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RussiaCube.app/RussiaCube";
+			};
+			name = Debug;
+		};
+		CCB12D861BBBCF260013CFDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RussiaCubeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ljang.RussiaCubeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RussiaCube.app/RussiaCube";
+			};
+			name = Release;
+		};
+		CCB12D881BBBCF260013CFDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RussiaCubeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ljang.RussiaCubeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RussiaCube;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		CCB12D891BBBCF260013CFDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RussiaCubeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ljang.RussiaCubeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RussiaCube;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CCB12D541BBBCF250013CFDA /* Build configuration list for PBXProject "RussiaCube" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCB12D7F1BBBCF260013CFDA /* Debug */,
+				CCB12D801BBBCF260013CFDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCB12D811BBBCF260013CFDA /* Build configuration list for PBXNativeTarget "RussiaCube" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCB12D821BBBCF260013CFDA /* Debug */,
+				CCB12D831BBBCF260013CFDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CCB12D841BBBCF260013CFDA /* Build configuration list for PBXNativeTarget "RussiaCubeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCB12D851BBBCF260013CFDA /* Debug */,
+				CCB12D861BBBCF260013CFDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CCB12D871BBBCF260013CFDA /* Build configuration list for PBXNativeTarget "RussiaCubeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCB12D881BBBCF260013CFDA /* Debug */,
+				CCB12D891BBBCF260013CFDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CCB12D511BBBCF250013CFDA /* Project object */;
+}
